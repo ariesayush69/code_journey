@@ -19,6 +19,22 @@ class number1
                       System.out.println("divisible by 7:  "+i);
                       i++;
                   } while (i<=50);*/
+
+                /*  for(i=1;i<=50;i++) // - for loop for number divisible by 2
+        {
+            if(i%2==0)
+            {
+                System.out.println("divisible by 2:  "+i);
             }
-        }
+        }*/
+
+       /*while(i<=50) //while loop for number divisible by 2
+                {
+                    if(i%2==0)
+                    System.out.println("divisible by 2:  "+i);
+                    i++;
+                }
+                */
+    }
+}
     
