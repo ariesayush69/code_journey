@@ -13,7 +13,12 @@ class number1
                     if(i%7==0)
                     System.out.println("divisible by 7:  "+i);
                     i++;*/
-
+                
+                 /* do { //do while loop
+                     if(i%7==0)
+                      System.out.println("divisible by 7:  "+i);
+                      i++;
+                  } while (i<=50);*/
             }
         }
-    }
+    
