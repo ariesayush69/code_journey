@@ -1,0 +1,40 @@
+'''
+
+def greet(name):
+    print('hello',name)
+
+greet('Ayush')
+
+
+
+def sum(a,b):   #FUNCTION WITH BOTH INPUT AND RETURN STATEMENT 
+    return a+b
+a=int(input())
+b=int(input())
+
+r=sum(a,b)
+print(r)
+
+
+def sum(a,b):   #FUNCTION WITH INPUT BUT WITHOT RETURN
+    print(a+b)
+
+a=int(input())
+b=int(input())
+sum(a,b)
+
+
+
+def sum():   #FUNCTION WITH RETURN BUT WITHOT INPUT
+    return()
+
+r=sum()
+print(r)
+
+
+
+def sum():    #FUNCTION WITHOUT RETURN AND WITHOT INPUT
+    print(4+5)
+
+print(sum())
+'''
