@@ -1,0 +1,27 @@
+class perimeter
+{
+    int perimeter(int a,int b, int c)
+    {
+     return a+b+c;
+    }
+    double perimeter(double a, double b)
+    { 
+     return (a*a);
+    }
+    double perimeter(double r)
+    {
+     return (2*3*r);
+    }
+}
+
+class method_overloading{
+    public static void main(String[] args) {
+
+        perimeter obj = new perimeter();
+        double x=obj.perimeter(5);
+        double y=obj.perimeter(4, 3);
+        int z=obj.perimeter(3, 4, 5);
+        System.out.println("traingle : " +z+ " Square : "  +y+" circle : " + x);
+
+    }
+}
