@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: aquamarine;
+            padding: 10px;;
+        }
+        .box-container{
+            
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            gap: 5px;
+            
+        }
+        .first{
+            background-color: rgb(155, 155, 240);
+            height: 110px;
+            border-radius: 10px;
+            grid-column: span 12;
+            
+        }
+        .col-2{
+            background-color: rgb(59, 128, 189);
+            grid-column: span 8;
+            height: 110px;
+            border-radius: 10px;
+           
+        }
+       .col-3{
+        background-color: rgb(59, 128, 189);
+            grid-column: span 4;
+            height: 110px;
+            border-radius: 10px;
+           
+        }
+        .col-4{
+            grid-column: span 4;
+            height: 110px;
+            border-radius: 10px;
+        }
+        .col-5{
+            grid-column: span 4;
+            height: 110px;
+            border-radius: 10px;
+        }
+        .col-6{
+            grid-column: span 4;
+            height: 110px;
+            border-radius: 10px;
+        }
+        button{
+            border-radius: 10px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+
+    <div class="box first">
+        <button>Featured</button><br>
+       <span style="font-size: 50px;">Annual hackathon </span><br>
+       <span>Teams from every semester.</span>
+    </div>
+
+
+    <div class="box col-2">
+        <button>Spotlight</button>
+        <b><pre style="color: aliceblue;font-size: large;">How Students Build a smart attendance tool</pre><br>
+        <pre style="margin-top: -25px;color: rgba(247, 243, 243, 0.7);">A portal with the linkage to databse to store it on the
+server for updation</pre></b>
+    </div>
+    <div class="box col-3"> <button>Notice</button></div>
+
+
+    <div class="box col-4">GIT HUB</div>
+    <div class="box col-5">UI</div>
+    <div class="box col-6">Open Source Club</div>
+
+</div>
+</body>
+</html>
