@@ -46,8 +46,8 @@
      .social-stack {
     position: fixed;
     right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 30%;
+    
     display: flex;
     flex-direction: column;
     gap: 3px;
