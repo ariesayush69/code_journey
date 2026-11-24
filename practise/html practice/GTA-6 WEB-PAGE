@@ -42,6 +42,9 @@
       {
         color: grey;
       }
+      .hero{
+        padding: 10px;
+      }
     </style>
 </head>
 <body>
@@ -77,5 +80,12 @@
 <p>VICE CITY, LEONIDA</p>
 <p>GRAND THEFT AUTO VI</p>
 </footer>
+
+<div style="display: flex;justify-content: flex-end;flex-direction: column;align-items: end;gap: 3px">
+<button class="hero">hi</button>
+<button class="hero">hi</button>
+<button class="hero">hi</button>
+<button class="hero">hi</button>
+</div>
 </body>
 </html>
