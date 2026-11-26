@@ -1,0 +1,30 @@
+class area{
+    void show(float h,float b)
+    {
+     System.out.println(h*b);
+    }
+    void show(int l,int b)
+     {
+        System.out.println(l*b);
+     }
+     void show(float r)
+     {
+        System.out.println(r*r);
+     }
+     void show(int s)
+     {
+        System.out.println(s*s);
+     }
+}
+
+
+class overloading1
+{
+    public static void main(String[] args) {
+        area obj = new area();
+        obj.show(3.4f,5.6f);
+        obj.show(3,4);
+        obj.show(5.6f);
+        obj.show(5);
+    }
+}
