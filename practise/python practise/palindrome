@@ -1,0 +1,12 @@
+name=input()
+rev_name=""
+d=""
+for i in range(len(name)):
+  d=name[i]
+  rev_name=d+rev_name
+if(rev_name.lower()==name.lower()):
+  print(rev_name,"is palindrome")
+else:
+  print("not palindrome")
+
+  
