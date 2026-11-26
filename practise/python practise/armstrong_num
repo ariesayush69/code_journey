@@ -1,0 +1,19 @@
+n=int(input())
+d=0
+c=0
+sum=0
+num=n
+while(n!=0):
+  d=n%10
+  c+=1
+  n=n//10
+n=num
+while(n!=0):
+  d=n%10
+  n=n//10
+  sum=d**c+sum
+n=num
+if sum == n:
+  print("armstrong no.")
+else:
+  print("not a armstrong")
